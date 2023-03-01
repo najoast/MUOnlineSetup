@@ -7,7 +7,7 @@
 4. 分辨率
 
 ***
-This project is a graphical tool for setting the Miracle MU client. As we all know, the following options of the Miracle MU client are set in the registry, and the registry settings are very cumbersome. The purpose of this project is to simplify this The process allows users to set up Miracle MU client more conveniently.
+This project is a graphical tool for setting the MU Online client. As we all know, the following options of the MU Online client are set in the registry, and the registry settings are very cumbersome. The purpose of this project is to simplify this The process allows users to set up MU Online client more conveniently.
 
 Setting items:
 1. Music on/off
