@@ -271,10 +271,10 @@ void CMuClientSetupDlg::OnCbnSelchangeComboResolution()
 
 void CMuClientSetupDlg::InitComboResolution()
 {
-	m_comboResolution.InsertString(RESOLUTION_VALUE_640_480, "640×480");
-	m_comboResolution.InsertString(RESOLUTION_VALUE_800_600, "800×600");
-	m_comboResolution.InsertString(RESOLUTION_VALUE_1024_768, "1024×768");
-	m_comboResolution.InsertString(RESOLUTION_VALUE_1280_1024, "1280×1024");
+	m_comboResolution.InsertString(RESOLUTION_VALUE_640_480, "640x480");
+	m_comboResolution.InsertString(RESOLUTION_VALUE_800_600, "800x600");
+	m_comboResolution.InsertString(RESOLUTION_VALUE_1024_768, "1024x768");
+	m_comboResolution.InsertString(RESOLUTION_VALUE_1280_1024, "1280x1024");
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -371,7 +371,7 @@ void CMuClientSetupDlg::OnHotKey(UINT nHotKeyId, UINT nKey1, UINT nKey2)
 			{
 				CGlobalMouseHook::Instance().StopRightLongPress();
 				this->KillTimer(ON_TIMER_ID_MOUSE_RIGHT_DOWN);
-				this->SetDlgItemText(IDC_STATIC_RD_ONOFF, "已关闭");
+				this->SetDlgItemText(IDC_STATIC_RD_ONOFF, "Closed");
 			}
 			else
 			{
